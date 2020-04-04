@@ -38,5 +38,6 @@ def turn(board)
    puts "invalid input. please try again:"
    input = gets.strip
    index = input_to_index(input)
+   move(board,index,"X")
  end
 end
